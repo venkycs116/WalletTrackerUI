@@ -1,0 +1,38 @@
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+    padding-top: 10px;
+    height:6px ;  
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #fff; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #556084; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #556084; 
+  }
+  
+  /* Multiselect-Poper */
+.menucontainer .MuiPaper-elevation8{    
+  width: 300px;
+  min-width: 300px;
+  padding: 14px;    
+  margin-top: 5px;
+  filter:"drop-shadow(0px 2px 6px rgba(33,43,54,0.08)) drop-shadow(0px 0px 1px 1px rgba(6,44,82,0.1))";
+}
+.packagecontainer .MuiPaper-elevation8{    
+  width: 240px;
+  min-width: 180px;     
+  padding:0px;
+}
+    
